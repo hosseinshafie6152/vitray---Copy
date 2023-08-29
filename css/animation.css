@@ -1,0 +1,18 @@
+@keyframes wonder {
+    25%{color: rgb(148, 134, 134);}
+    25%{color: rgb(0, 0, 0); transform: scale(0.9);}
+}
+.wonderful .label{
+    animation-name: wonder;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+@keyframes changesize {
+    50%{font-size: 2em;}
+}
+.down{
+    animation-name: changesize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="title icon" type="image/JPG" href="../vitray/images/logo.png">
+    <title>vitray نقاشی روی شیشه</title>
+    <link rel="stylesheet" href="../vitray/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../vitray/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="../vitray/css/owl.carousel.css">
+    <link rel="stylesheet" href="../vitray/css/owl.theme.default.css">
+</head>
+<body>
+<div>
+<!-- navigation bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+        <a href="" class="navbar-brand"><img src="../vitray/images/logo.png" alt="" style="width: 60px;height: 40px;" class="rounded-5 border"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0  me-auto">
+                <li class="nav-item">
+                    <a href="../vitray/home.html" class="nav-link active" aria-current="page">خانه</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">خرید</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">تصاویر</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../vitray/mag.html" class="dropdown-item">تصاویر روی ماگ</a></li>
+                        <li><a href="../vitray/tile.html" class="dropdown-item">تصاویر روی کاشی</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a href="" class="dropdown-item">تصاویر سه بعدی</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="http://localhost:3000/login" class="nav-link">ورود / ثبت نام</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input type="search" class="form-control me-2" placeholder="جست و جو...">
+                <button type="button" class="btn btn-outline-primary">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+          </div>
+    </div> 
+</nav>
+<!-- products -->
+
+<h5>محصولات روی شیشه</h5>
+<div class="card-group" id="products">
+    <div class="container-fluid">
+     <div class="row"  id="production">
+      <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/download (2).jfif" alt="p1" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">پروانه و امواج دریا</p>
+            <a href="#tile" role="button" class="btn btn-dark" onclick="show1()" id="btn1">جزئیات محصول</a>
+        </div>
+      </div>
+      <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/628a9751-bb98-41ca-b916-e1513a2761d6.png" alt="p2" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">گل و پروانه</p>
+            <a href="#glass-gold" role="button" class="btn btn-dark" onclick="show2()" id="btn2">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/download (3).jfif" alt="p3" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">جاده پاییزی</p>
+            <a href="#cat-case" role="button" class="btn btn-dark" onclick="show3()" id="btn3">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/35295085-6553-b__943219409.webp" alt="p4" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">خورشید و ماه</p>
+            <a href="#tight" role="button" class="btn btn-dark" onclick="show4()" id="btn4">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/download.jfif" alt="p5" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح آیینه</h5>
+            <p class="card-text">آیینه ویترای</p>
+            <a href="#cup" role="button" class="btn btn-dark" onclick="show5()" id="btn5">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/4a56de7237.jpg" alt="p6" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر گل یاس</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/71b7021593.jpg" alt="p7" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر دریای</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/407JIZFVvKnGCi3QRxi3ufiptmmVm6EjjXQsuM0Y.jpeg_512X512X70.jpeg" alt="p8" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر زندانی</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/26bc3ab1ff.jpg" alt="p9" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دخترک تنها</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/7078464_1575832664_073.jpg" alt="p10" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر و سنجاقک</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/fzvpnk97SQp7aJaT7SRXdkZpR9iesYjr9j4VXqpg.jpeg_512X512X70.jpeg" alt="p11" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر کلاه راه راهی</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/images (35).jfif" alt="p12" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختری با گوشواره‌های طلایی</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/nody-نقاشی-روی-شیشه-1636473152.jpeg" alt="p13" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر و گربه رویایی</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/uPa0waTy1dSRFZPfGQdbgBQMmB2thWOEezULlvTV.jpeg_512X512X70.jpeg" alt="p14" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر شاهزاده</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/نقاشی-روی-شیشه-534x405.jpg" alt="p15" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر درختی</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/ویترای-روی-شیشه.jpg" alt="p16" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">گربه شنی</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/ویترای-روی-شیشه-بحرالفنون.jpg" alt="p17" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر مو حنایی</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/تابلو-ویترای-مدل-016-طرح-دختر-رویایی-min.jpg" alt="p18" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر رویایی</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/b00fa90b3d.jpg" alt="p19" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر انار به دست</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/ZSTOK1007-yekta-2-300x300.jpg" alt="p20" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس هدیه</h5>
+            <p class="card-text">دختری به نام یکتا</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/ZSTO1013-fateme-1-1.jpg" alt="p21" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس هدیه</h5>
+            <p class="card-text">دختری به نام فاطمه</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/ZSTOK1012-mahsa-2-1.jpg" alt="p22" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس هدیه</h5>
+            <p class="card-text">دختری به نام مهسا</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/images (11).jfif" alt="p23" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر با تاج گل</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/1293033-اسب-شاخدار-ilration-آبرنگ-اسب-شاخدار-تک-شاخ-جادویی-چاپ-تی-شرت-تک-شاخ.jpg" alt="p24" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">اسب شاخ دار</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/85a159f26d.jpg" alt="p25" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">اسب نجیب</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/tavuskusu_eskiz-b-3.jpg" alt="p26" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">طاووس عاشق</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/images (4).jfif" alt="p27" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">طاووس</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/images (6).jfif" alt="p28" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">طاووس رقصان</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/images (5).jfif" alt="p29" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">طاووس</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/images (7).jfif" alt="p30" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">طاووس رنگارنگ</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/images (8).jfif" alt="p31" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">دختر خواب</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/images (9).jfif" alt="p32" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">زوج معشوق</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/تابلو-ویترای-طرح-طاووس-کد-22200-min.jpg" alt="p33" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">طاووس با پس زمینه سیاه</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/2-min-2.jpg" alt="p34" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">مرغ مینا</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/T8frBYjiuFPyFXX7DgDHCJiAh8rzwNGGHM32OxDk.jpeg_256X256X70.jpeg" alt="p35" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">تقویم تاریخ ازدواج</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+    <div class="card col-xl-2 col-md-4 col-sm-6">
+        <div class="card-header">
+            <img src="../vitray/images/glass/images (14).jfif" alt="p36" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" id="title">طرح قاب عکس</h5>
+            <p class="card-text">ماهی دریا</p>
+            <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-xl-8 col-md-12">
+                <h5 class="mt-5">درباره ما</h5>
+                <p>تیم پدیده رویا تشکیل شده از استاید مجرب و ماهر در زمینه نقاشی بر روی شیشه هست و این تیم در صدد پیاده سازی طرح های جدید و خلاقانه می‌باشد.پدیده رویا اساتید خبره‌ای را از سراسر کشور عزیزمان گرد هم آورده است تا روزنه جدیدی از هنر را به روی  جهانیان و مردم کشور بگشاید. و اما مخاطب این سخن شما هستید: <strong> (آنچه که باعث می‌شود دنیا به رویت بخندد خندیدن به روی دنیاست پس به خنده هایت رنگ ببخش.)</strong></p>
+            </div>
+            <div class="col-xl-4 col-md-12 text-center">
+                <span class="logo">پدیده رویا</span>
+                <div class="contect d-flex justify-content-center">
+                    <h6 class="me-5">راه های ارتباطی:</h6>
+                    <i class="fa fa-phone" aria-hidden="true">
+                        <a href="tel:03033635290" class="text-decoration-none text-dark me-5" title="تماس">تماس با ما</a>
+                    </i>
+                    <a href="hossseinshafie6152@gmail.com" class="text-decoration-none text-dark" >ایمیل</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-dark text-white text-center w-100 d-flex justify-content-center align-items-center" style="height: 50px;">
+            <p>کلیه حقوق برای پدیده رویا محفوظ می‌باشد.©2023</p>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="../vitray/js/jquery.js"></script>
+<script src="../vitray/js/bootstrap.bundle.js"></script>
+<script src="../vitray/js/login.js"></script>
+    </div>
+</body>
+</html>

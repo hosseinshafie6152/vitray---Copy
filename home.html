@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="title icon" type="image/JPG" href="../vitray/images/logo.png">
+    <title>vitray نقاشی روی شیشه</title>
+    <link rel="stylesheet" href="../vitray/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../vitray/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="../vitray/css/animation.css">
+</head>
+<body>
+    <div>
+<!-- navigation bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+        <a href="" class="navbar-brand"><img src="../vitray/images/logo.png" alt="" style="width: 60px;height: 40px;" class="rounded-5 border"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0  me-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">خانه</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">خرید</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">تصاویر</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../vitray/glass.html" class="dropdown-item">تصاویر روی شیشه</a></li>
+                        <li><a href="../vitray/mag.html" class="dropdown-item">تصاویر روی ماگ</a></li>
+                        <li><a href="../vitray/tile.html" class="dropdown-item">تصاویر روی کاشی</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a href="" class="dropdown-item">تصاویر سه بعدی</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="../vitray/login.html" class="nav-link">ورود / ثبت نام</a>
+                </li>
+            </ul>
+            <form class="d-flex" id="search">
+                <input type="search" class="form-control me-2" placeholder="جست و جوی محصول ...">
+                <button type="button" class="btn btn-outline-primary">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+          </div>
+    </div> 
+</nav>
+<!-- slide banner -->
+<div class="carousel slide" id="slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
+        <button type="button" data-bs-target="#slide" data-bs-slide-to="1"   aria-current="true" aria-label="slide 2"></button>
+        <button type="button" data-bs-target="#slide" data-bs-slide-to="2"   aria-current="true" aria-label="slide 3"></button>
+        <!--<button type="button" data-bs-target="#slide" data-bs-slide-to="3"  aria-current="true" aria-label="slide 4"></button>
+        <button type="button" data-bs-target="#slide" data-bs-slide-to="4"  aria-current="true" aria-label="slide 5"></button>-->
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../vitray/images/poster.bmp" alt="slide1" class="d-block w-100" style="height: 600px;">
+        </div>
+        <div class="carousel-item">
+            <img src="../vitray/images/slide2.png" alt="slide2" class="d-block w-100" style="height: 600px;">
+        </div>
+        <div class="carousel-item">
+            <img src="../vitray/images/slide1.png" alt="slide3" class="d-block w-100" style="height: 600px;">
+        </div>
+       <!-- <div class="carousel-item">
+            <img src="" alt="slide4" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="" alt="slide5" class="d-block w-100">
+        </div>-->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+<!-- login -->
+<div class="container text-center mb-3 fw-semibold lh-1">
+    <img src="../vitray/images/logo.png" alt="logo" class="mx-auto mb-3">
+    <h1 class="">نقاشی های زیبا ، متنوع و رنگارنگ با پدیده رویا</h1>
+    <p class="lead mb-4">طرح‌های متنوع و زیبا با طیف رنگی بسیار بالا و مجذوب ، مناسب برای هدیه دادن ، با هنر به زندگی خود رنگ و جلوه جدیدی بدهید.</p>
+    <div class="d-flex flex-column flex-lg-row align-items-md-stretch justify-content-md-center gap-3 mb-4">
+        <a href="" class="btn btn-lg btn-primary d-flex align-items-center justify-content-center fw-semibold">ثبت نام</a>
+        <a href="" class="btn btn-lg btn-primary d-flex align-items-center justify-content-center fw-semibold">ثبت سفارش</a>
+    </div>
+</div>
+<!-- scroll -->
+<section class="move-up">
+    <div class="moving-up">
+        <a id="move-up" href="#slide" class="a-move-up">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+            <span class="text">بازگشت به بالا</span>
+        </a>
+    </div>
+</section>
+
+<!-- video -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-8 col-lg-12">
+                <video controls class="rounded-2 video" poster="../vitray/images/poster.bmp">
+                    <source src="../vitray/images/products.mp4" type="video/mp4" />
+                  </video>
+            </div>
+            <div class="col-xl-4 col-lg-12">
+                <h5>ویترای چیست؟</h5>
+                <p>ویترای یک هنر زیبای نقاشی بوده که با قلم‌مو و رنگ های متنوع و مخصوص بر روی هر سطحی قابل پیاده سازی است. عاملی که باعث متمایز این هنر از سایر هنر های نقاشی می‌شود تنوع رنگی بسیار زیاد و ماندگاری بالای این هنر زیبا می‌باشد.</p>
+                <hr>
+                <h5>چه نمونه طرح هایی از این هنر وجود دارد؟</h5>
+                <p>برای رسیدن به پاسخ این پرسش کافی است ویدیو را مشاهده کنید تا نمونه ای بسیار کوچک از این هنر زیبا را مشاده کرده و روزنه ای از شناخت این هنر بر رویتان گشوده شود.<span>&#128151;</span></p>
+                
+            </div>
+        </div>
+    </div>
+<!-- production -->    
+    <h5>محصولات</h5>
+    <div class="card-group" id="products">
+        <div class="container-fluid">
+         <div class="row"  id="production">
+          <div class="card col-xl-2 col-md-4 col-sm-6">
+            <div class="card-header">
+                <img src="../vitray/images/products1.jfif" alt="p1" class="card-img-top">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" id="title">طرح چهره روی کاشی</h5>
+                <p class="card-text">در رنگ های متنوع و طرح های متفاوت</p>
+                <a href="#tile" role="button" class="btn btn-dark" onclick="show1()" id="btn1">جزئیات محصول</a>
+            </div>
+          </div>
+          <div class="card col-xl-2 col-md-4 col-sm-6">
+            <div class="card-header">
+                <img src="../vitray/images/products2.jfif" alt="p2" class="card-img-top">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" id="title">طرح ترمه روی شیشه</h5>
+                <p class="card-text">با پس زمینه زر ورق ،بسیار جذاب</p>
+                <a href="#glass-gold" role="button" class="btn btn-dark" onclick="show2()" id="btn2">جزئیات محصول</a>
+            </div>
+        </div>
+        <div class="card col-xl-2 col-md-4 col-sm-6">
+            <div class="card-header">
+                <img src="../vitray/images/products12.jfif" alt="p3" class="card-img-top">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" id="title">طرح فانتزی گربه</h5>
+                <p class="card-text">قابل استفاده به عنوان قاب با طرح های بسیار جالب و دوست داشتنی</p>
+                <a href="#cat-case" role="button" class="btn btn-dark" onclick="show3()" id="btn3">جزئیات محصول</a>
+            </div>
+        </div>
+        <div class="card col-xl-2 col-md-4 col-sm-6">
+            <div class="card-header">
+                <img src="../vitray/images/products8.jfif" alt="p4" class="card-img-top">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" id="title">طرح گل و بوته</h5>
+                <p class="card-text">بر روی تنگ ماهی </p>
+                <a href="#tight" role="button" class="btn btn-dark" onclick="show4()" id="btn4">جزئیات محصول</a>
+            </div>
+        </div>
+        <div class="card col-xl-2 col-md-4 col-sm-6">
+            <div class="card-header">
+                <img src="../vitray/images/products10.jpg" alt="p5" class="card-img-top">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" id="title">طرح تزیین جام شیشه ای</h5>
+                <p class="card-text">در طرح ها مختلف بر روی ظروف شیشه ای از قبیل مگ</p>
+                <a href="#cup" role="button" class="btn btn-dark" onclick="show5()" id="btn5">جزئیات محصول</a>
+            </div>
+        </div>
+        <div class="card col-xl-2 col-md-4 col-sm-6">
+            <div class="card-header">
+                <img src="../vitray/images/products6.jpg" alt="p6" class="card-img-top">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" id="title">طرح دایره ای سینی</h5>
+                <p class="card-text">در رنگ های متنوع و طرح های متفاوت</p>
+                <a href="#tray" role="button" class="btn btn-dark" onclick="show6()" id="btn6">جزئیات محصول</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="product-tile container-fluid" id="tile">
+    <div class="row">
+    <div class="picture col-xl-3 col-md-6 col-sm-12">
+        <img src="../vitray/images/products1.jfif" alt="picture of product">
+    </div>
+    <div class="in-mo col-xl-9 col-md-6 col-sm-12">
+    <div class="information">
+        <span class="close" onclick="show1()">&times;</span>
+        <span class="title">نام محصول: <strong>طرح چهره</strong></span>
+        <span>مشخصات محصول:</span>
+        <ul>
+            <li>جنس: کاشی</li>
+            <li>اندازه:10cm 10cm</li>
+            <li>امتیاز:7 از 10</li>
+            <li>قیمت:45000 تومان</li>
+        </ul>
+    </div>
+    <div class="more">
+        <p>برای مشاهده طرح های ویترایی بر روی کاشی روی دکمه زیر کلیک کنید.</p>
+        <a href="../vitray/tile.html" class="btn btn-dark">مشاهده محصولات بیشتر</a>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="product-tile container-fluid" id="glass-gold">
+    <div class="row">
+    <div class="picture col-xl-3 col-md-6 col-sm-12">
+        <img src="../vitray/images/products2.jfif" alt="picture of product">
+    </div>
+    <div class="in-mo col-xl-9 col-md-6 col-sm-12">
+    <div class="information">
+        <span class="close" onclick="show2()">&times;</span>
+        <span class="title">نام محصول: <strong>طرح ترمه</strong></span>
+        <span>مشخصات محصول:</span>
+        <ul>
+            <li>جنس: شیشه</li>
+            <li>اندازه:10cm 10cm</li>
+            <li>امتیاز:9 از 10</li>
+            <li>قیمت:80000 تومان</li>
+        </ul>
+    </div>
+    <div class="more">
+        <p>برای مشاهده طرح های ویترایی بر روی شیشه با پس زمینه زر ورق بر روی دکمه زیر کلیک کنید.</p>
+        <a href="../vitray/glass.html" class="btn btn-dark">مشاهده محصولات بیشتر</a>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="product-tile container-fluid" id="cat-case">
+    <div class="row">
+    <div class="picture col-xl-3 col-md-6 col-sm-12">
+        <img src="../vitray/images/products12.jfif" alt="picture of product">
+    </div>
+    <div class="in-mo col-xl-9 col-md-6 col-sm-12">
+    <div class="information">
+        <span class="close" onclick="show3()">&times;</span>
+        <span class="title">نام محصول: <strong>طرح فانتزی شهر گربه</strong></span>
+        <span>مشخصات محصول:</span>
+        <ul>
+            <li>جنس: شیشه مدرج</li>
+            <li>اندازه: 50cm 50cm</li>
+            <li>امتیاز:6 از 10</li>
+            <li>قیمت:100000 تومان</li>
+        </ul>
+    </div>
+    <div class="more">
+        <p>برای مشاهده طرح های فانتزی بیشتر بر روی دکمه زیر کلیک کنید.</p>
+        <a href="../vitray/glass.html" class="btn btn-dark">مشاهده محصولات بیشتر</a>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="product-tile container-fluid" id="tight">
+    <div class="row">
+    <div class="picture col-xl-3 col-md-6 col-sm-12">
+        <img src="../vitray/images/products8.jfif" alt="picture of product">
+    </div>
+    <div class="in-mo col-xl-9 col-md-6 col-sm-12">
+    <div class="information">
+        <span class="close" onclick="show4()">&times;</span>
+        <span class="title">نام محصول: <strong>طرح گل و بوته روی تنگ شیشه ای</strong></span>
+        <span>مشخصات محصول:</span>
+        <ul>
+            <li>جنس: تنگ شیشه ای</li>
+            <li>حجم: 5l</li>
+            <li>امتیاز: 10 از 10</li>
+            <li>قیمت: 135000 تومان</li>
+        </ul>
+    </div>
+    <div class="more">
+        <p>برای مشاهده طرح های ویترای بر روی تنگ های شیشه ای بیشتر بر روی دکمه زیر کلیک کنید.</p>
+        <a href="../vitray/glass.html" class="btn btn-dark">مشاهده محصولات بیشتر</a>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="product-tile container-fluid" id="cup">
+    <div class="row">
+    <div class="picture col-xl-3 col-md-6 col-sm-12">
+        <img src="../vitray/images/products10.jpg" alt="picture of product">
+    </div>
+    <div class="in-mo col-xl-9 col-md-6 col-sm-12">
+    <div class="information">
+        <span class="close" onclick="show5()">&times;</span>
+        <span class="title">نام محصول: <strong>طرح جام ویترای</strong></span>
+        <span>مشخصات محصول:</span>
+        <ul>
+            <li>جنس: شیشه فرانسوی</li>
+            <li>تعداد: یک دست کامل(6عدد)</li>
+            <li>امتیاز: 5 از 10</li>
+            <li>قیمت:250000 تومان</li>
+        </ul>
+    </div>
+    <div class="more">
+        <p>برای مشاهده ظروف شیشه ای مزین شده با طرح های مختلف بر روی دکمه زیر کلیک کنید.</p>
+        <a href="../vitray/mag.html" class="btn btn-dark">مشاهده محصولات بیشتر</a>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="product-tile container-fluid" id="tray">
+    <div class="row">
+    <div class="picture col-xl-3 col-md-6 col-sm-12">
+        <img src="../vitray/images/products6.jpg" alt="picture of product">
+    </div>
+    <div class="in-mo col-xl-9 col-md-6 col-sm-12">
+    <div class="information">
+        <span class="close" onclick="show6()">&times;</span>
+        <span class="title">نام محصول: <strong>طرح سینی مجلسی</strong></span>
+        <span>مشخصات محصول:</span>
+        <ul>
+            <li>جنس: رزین + کائوچو</li>
+            <li>قطر:50 cm</li>
+            <li>امتیاز:9 از 10</li>
+            <li>قیمت:350000 تومان</li>
+        </ul>
+    </div>
+    <div class="more">
+        <p>برای مشاهده انواع سینی ها با رنگ و طرح های مختلف بر روی دکمه زیر کلیک کنید.</p>
+        <a href="../vitray/glass.html" class="btn btn-dark">مشاهده محصولات بیشتر</a>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- wonderful -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-8 col-lg-12">
+            <div class="wonderful">
+                <div class="label">
+                    <span class="title">طرح شگفتانه</span>
+                </div>
+                <div class="main">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="right">
+                                <img src="../vitray/images/wonder.jpeg" class="image" alt="pocture" id="new">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="med d-flex flex-column text-center pt-5">
+                                <div class="text">
+                                    <p id="tNew">زمان باقی مانده برای پرده برداری از طرح جدید:</p>
+                                    <hr class="divider">
+                                </div>
+                                <div class="time">
+                                    <span id="seconds">59</span><b>:</b>
+                                    <span id="minuts">59</span><b>:</b>
+                                    <span id="hours">75</span>
+                                </div>
+                            </div>
+                        </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="left">
+                        <p>طرح های شگفتانه  = طرح هایی که تا به حال مانندش را ندیده ای </p>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-12 border rounded-2 d-flex flex-column justify-content-around align-items-center">
+            <div class="guess">
+                <p>حدس بزن چه چیزی را میخوایم رو نمایی کنیم...</p>
+                <p>با حدس زدن بن تخفیف دریافت کن.</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <i class="fa fa-arrow-down down" aria-hidden="true"></i>
+                <button class="btn btn-outline-success mt-5" data-bs-toggle="popover" data-bs-title="توجه" data-bs-content="پیش از حدس زدن می بایست ثبت نام کنید." type="button">حدس بزن</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- questions -->
+<h5>سوالات متداول</h5>
+<!--<div class="container-fluid">
+  <div class="row">
+    <div class="col-xl-7">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ویترای چیست؟
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    هنر دارای جنبه های مختلفی می‌باشد یکی از حیطه های آن هنر نقاشی است هنری که با آن دریچه جدیدی به روی انسان گشوده می گردد.یکی از انواع نقاشی نقاشی ویترای می‌باشد که طراحی و رنگ آمیزی بر روی شیشه می‌باشد آنچه که باعث شده است تیم پدیده رویا از سایرین متمایز شود پیاده سازی طرح های مختلف ویترایی بر روی سطوح مختلف از قبیل کاشی لعاب دار ، سطوح رزینی و ... 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    آیا امکان دارد که طرح دلخواهی خریداری شود؟
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    تیم پدیده رویا این امکان را برای هنردوستان مقدر فرموده تا هر طرح دلخواه مشتری پذیرفته و طراحی گردد. برای سفارش طرح های دلخواه خود با ما در ارتباط باشید و در ابتدا ثبت نام کرده و سپس ثبت سفارش کنید.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    چگونه طرح دلخواه خود را ثبت کنم؟
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>برای این منظور مراحل زیر را به ترتیب طی نمایید:</p>
+                    <ul>
+                        <li>بر روی دکمه ثبت نام کلیک کرده تا به صفحه مورد نظر منتقل گردید.</li>
+                        <li>پس از انتقال به صفحه مورد نظر مشخصات خود را در فرم فرستاده شده تکمیل نمایدد.</li>
+                        <li>بر روی دکمه ثبت کلیک کرده تا اطلاعات شما ثبت گردد. <br>اگر دکمه ثبت را فشار نداده و از صفحه به صفحه دیگر منتقل شده یا صفحه را رفرش نمایید اطلاعات شمت ثبت نمی گردد.</li>
+                        <li>پس از ثبت اطلاعات منتظر پیام (اطلاعات شما با موفقیت ثبت گردید)باشید.</li>
+                        <li>دو ریکرد وجود دارد به صفحه اصلی بازگشته و بر روی دکمه ثبت سفارش کلیک کنید یا در صفحه ثبت نام بر روی دکمه ثبت سفارش کلیک کرده و فرم فرستاده شده را با دقت تکمیل کنید.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                    آیا بن تخفیف وجود دارد؟
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        تیم پدیده رویا برای مشتریان خود پس از هر بار خرید بن تخفیف اختصاصی قرار می‌دهد. پس برای بهره وری از این بن ابتدا ثبت نام کرده و بن خود را دریافت نمایید.
+                    </div>
+                </div>
+              </div>
+          </div>
+   </div>
+   <div class="col-xl-5">
+        <div class="banner">
+            <canvas></canvas>
+        </div>
+   </div>
+  </div>
+</div>-->
+<div class="container-fluid">
+<div class="row">
+    <div class="col-xl-4 col-md-12">
+        <div class="list-group">
+            <a href="#askOne" data-bs-toggle="list" role="tab" class="list-group-item list-group-item-action active">ویترای چیست؟</a>
+            <a href="#askTow" data-bs-toggle="list" role="tab" class="list-group-item list-group-item-action">آیا امکان دارد که طرح دلخواهی خریداری شود؟</a>
+            <a href="#askThree" data-bs-toggle="list" role="tab" class="list-group-item list-group-item-action">چگونه طرح دلخواه خود را ثبت کنم؟</a>
+            <a href="#askfour" data-bs-toggle="list" role="tab" class="list-group-item list-group-item-action">آیا بن تخفیف وجود دارد؟
+            </a>
+        </div>
+    </div>
+    <div class="col-xl-8 col-md-12">
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="askOne">هنر دارای جنبه های مختلفی می‌باشد یکی از حیطه های آن هنر نقاشی است هنری که با آن دریچه جدیدی به روی انسان گشوده می گردد.یکی از انواع نقاشی نقاشی ویترای می‌باشد که طراحی و رنگ آمیزی بر روی شیشه می‌باشد آنچه که باعث شده است تیم پدیده رویا از سایرین متمایز شود پیاده سازی طرح های مختلف ویترایی بر روی سطوح مختلف از قبیل کاشی لعاب دار ، سطوح رزینی و ... </div>
+            <div class="tab-pane fade" id="askTow">تیم پدیده رویا این امکان را برای هنردوستان مقدر فرموده تا هر طرح دلخواه مشتری پذیرفته و طراحی گردد. برای سفارش طرح های دلخواه خود با ما در ارتباط باشید و در ابتدا ثبت نام کرده و سپس ثبت سفارش کنید.</div>
+            <div class="tab-pane fade" id="askThree">
+                <p>برای این منظور مراحل زیر را به ترتیب طی نمایید:</p>
+                <ul>
+                    <li>بر روی دکمه ثبت نام کلیک کرده تا به صفحه مورد نظر منتقل گردید.</li>
+                    <li>پس از انتقال به صفحه مورد نظر مشخصات خود را در فرم فرستاده شده تکمیل نمایدد.</li>
+                    <li>بر روی دکمه ثبت کلیک کرده تا اطلاعات شما ثبت گردد. <br>اگر دکمه ثبت را فشار نداده و از صفحه به صفحه دیگر منتقل شده یا صفحه را رفرش نمایید اطلاعات شمت ثبت نمی گردد.</li>
+                    <li>پس از ثبت اطلاعات منتظر پیام (اطلاعات شما با موفقیت ثبت گردید)باشید.</li>
+                    <li>دو ریکرد وجود دارد به صفحه اصلی بازگشته و بر روی دکمه ثبت سفارش کلیک کنید یا در صفحه ثبت نام بر روی دکمه ثبت سفارش کلیک کرده و فرم فرستاده شده را با دقت تکمیل کنید.</li>
+                </ul></div>
+            <div class="tab-pane fade" id="askfour">تیم پدیده رویا برای مشتریان خود پس از هر بار خرید بن تخفیف اختصاصی قرار می‌دهد. پس برای بهره وری از این بن ابتدا ثبت نام کرده و بن خود را دریافت نمایید.</div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- footer -->
+<footer>
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-xl-8 col-md-12">
+                <h5 class="mt-5">درباره ما</h5>
+                <p>تیم پدیده رویا تشکیل شده از استاید مجرب و ماهر در زمینه نقاشی بر روی شیشه هست و این تیم در صدد پیاده سازی طرح های جدید و خلاقانه می‌باشد.پدیده رویا اساتید خبره‌ای را از سراسر کشور عزیزمان گرد هم آورده است تا روزنه جدیدی از هنر را به روی  جهانیان و مردم کشور بگشاید. و اما مخاطب این سخن شما هستید: <strong> (آنچه که باعث می‌شود دنیا به رویت بخندد خندیدن به روی دنیاست پس به خنده هایت رنگ ببخش.)</strong></p>
+            </div>
+            <div class="col-xl-4 col-md-12 text-center">
+                <span class="logo">پدیده رویا</span>
+                <div class="contect d-flex justify-content-center">
+                    <h6 class="me-5">راه های ارتباطی:</h6>
+                    <i class="fa fa-phone" aria-hidden="true">
+                        <a href="tel:03033635290" class="text-decoration-none text-dark me-5" title="تماس">تماس با ما</a>
+                    </i>
+                    <a href="hossseinshafie6152@gmail.com" class="text-decoration-none text-dark" >ایمیل</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-dark text-white text-center w-100 d-flex justify-content-center align-items-center" style="height: 50px;">
+            <p>کلیه حقوق برای پدیده رویا محفوظ می‌باشد.©2023</p>
+        </div>
+    </div>
+</footer>
+
+<script src="../vitray/js/jquery.js"></script>
+<script src="../vitray/js/bootstrap.bundle.js"></script>
+<script src="../vitray/js/main.js"></script>
+<!--<script src="../vitray/js/login.js"></script>-->
+    </div>
+</body>
+</html>

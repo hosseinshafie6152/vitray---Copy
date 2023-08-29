@@ -1,0 +1,16 @@
+@font-face {
+    font-family: iran;
+    src: url(../fonts/iranyekanwebbold.ttf);
+}
+*{
+    font-size: 16px;
+    font-family: iran;
+    direction: rtl;
+}
+body{
+    background-image: url(../images/background.jpg);
+}
+.form{
+    margin-top: 100px;
+    background-color: #f9f9f9;
+}
